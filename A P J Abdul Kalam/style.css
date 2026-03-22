@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(226, 209, 255);
+    border: 5px solid black;
+    padding: 20px 200px;
+    margin: 10px;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.photo>img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.head {
+    padding-top: 160px;
+}
+
+.content h1,
+p {
+    padding: 10px 0;
+}
+
+.content h1 {
+    padding-top: 40px;
+}
