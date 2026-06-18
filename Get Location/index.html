@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>Get User Location</title>
+</head>
+<body>
+
+    <h2>यूज़र की लोकेशन पता करें</h2>
+    <button onclick="getLocation()">मेरी लोकेशन बताएं</button>
+    
+    <p id="output"></p>
+
+    <script>
+        const outputText = document.getElementById("output");
+
+        function getLocation() {
+            // 1. पहले चेक करें कि ब्राउज़र Geolocation को सपोर्ट करता है या नहीं
+            if (navigator.geolocation) {
+                outputText.innerHTML = "लोकेशन खोजी जा रही है...";
+                
+                // 2. अगर सपोर्ट करता है, तो getCurrentPosition को कॉल करें
+                navigator.geolocation.getCurrentPosition(showPosition, showError);
+            } else {
+                outputText.innerHTML = "माफ़ कीजिए, आपका ब्राउज़र Geolocation सपोर्ट नहीं करता।";
+            }
+        }
+
+        // 3. सफलता मिलने पर यह फंक्शन चलेगा
+        function showPosition(position) {
+            const latitude = position.coords.latitude;
+            const longitude = position.coords.longitude;
+            
+            outputText.innerHTML = `सफलता! <br> Latitude (अक्षांश): ${latitude} <br> Longitude (देशांतर): ${longitude}`;
+        }
+
+        // 4. अगर कोई एरर आता है (जैसे यूज़र ने मना कर दिया)
+        function showError(error) {
+            switch(error.code) {
+                case error.PERMISSION_DENIED:
+                    outputText.innerHTML = "यूज़र ने लोकेशन की अनुमति देने से मना कर दिया।";
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    outputText.innerHTML = "लोकेशन की जानकारी उपलब्ध नहीं है।";
+                    break;
+                case error.TIMEOUT:
+                    outputText.innerHTML = "लोकेशन जानने का समय समाप्त (Timeout) हो गया।";
+                    break;
+                case error.UNKNOWN_ERROR:
+                    outputText.innerHTML = "कोई अज्ञात एरर आया।";
+                    break;
+            }
+        }
+    </script>
+
+</body>
+</html>
