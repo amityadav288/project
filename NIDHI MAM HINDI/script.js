@@ -1,15 +1,15 @@
-// function checkPassword() {
-//     var password = prompt(" Enter Password :");
-//     if (password === "8090") {
-//         console.log("Welcome");
-//     }
-//     else {
-//         alert("Your Password is Wrong ");
-//         window.location.reload();
-//     }
-// }
+function checkPassword() {
+    var password = prompt(" Enter Password :");
+    if (password === "8090") {
+        console.log("Welcome");
+    }
+    else {
+        alert("Your Password is Wrong ");
+        window.location.reload();
+    }
+}
 
-// checkPassword()
+checkPassword()
 
 
 
