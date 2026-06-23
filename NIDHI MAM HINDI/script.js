@@ -36,6 +36,9 @@ function bclick() {
         
         <div class="card " > <h2>Class 03</h2><p> क्लास 3 वर्णमाला 2</p><img src="Multimedia/class 3.png" alt="error"> <button> <a href="https://mega.nz/file/vfITgDhC#wQtmwiitAnlU7lFl4VpLKo0WXo4rMn0ysRM2sGBrplU" target="_blank" >Play Cass</a></button> </div>    
  
+        
+        <div class="card " > <h2>Class 04</h2><p>क्लास 4 वर्णमाला 3</p><img src="Multimedia/class 4.png" alt="error"> <button> <a href="https://mega.nz/file/iXhhFRTL#3MTEJYadtk0dRzM-Ezpp0Vxu4p8SXmLQC7F3Z2UEfe4" target="_blank" >Play Cass</a></button> </div>    
+ 
        
         `
         a.classList.remove('fade-out')
