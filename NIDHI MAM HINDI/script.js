@@ -30,16 +30,16 @@ function bclick() {
         a.innerHTML = `
         
         
-        <div class="card " > <h2>Class 01</h2><p> सामान्य हिंदी </p><img src="NIDHI MAM HINDI/Thumbnail/Class 1.jpeg" alt="error"> <button> <a href="https://mega.nz/file/jTI30ZjB#nUDxt4M994gewgTkbD18MvEEOgRNaZGXfpKoMfftHSc" target="_blank" >Play Class</a></button> </div>    
+        <div class="card " > <h2>Class 01</h2><p> सामान्य हिंदी </p><img src="Class 1.jpeg" alt="error"> <button> <a href="https://mega.nz/file/jTI30ZjB#nUDxt4M994gewgTkbD18MvEEOgRNaZGXfpKoMfftHSc" target="_blank" >Play Class</a></button> </div>    
         
-        <div class="card " > <h2>Class 02</h2><p> क्लास 2 वर्णमाला 1</p><img src="NIDHI MAM HINDI/Thumbnail/Class 2.jpeg" alt="error"> <button> <a href="https://mega.nz/file/vT532KwQ#7kHrFPFDhiQ7vlsquJk-EkGAlknMnWg2ywNvvgWt4U8" target="_blank" >Play Cass</a></button> </div>    
+        <div class="card " > <h2>Class 02</h2><p> क्लास 2 वर्णमाला 1</p><img src="CLass 2.jpg" alt="error"> <button> <a href="https://mega.nz/file/vT532KwQ#7kHrFPFDhiQ7vlsquJk-EkGAlknMnWg2ywNvvgWt4U8" target="_blank" >Play Cass</a></button> </div>    
         
-        <div class="card " > <h2>Class 03</h2><p> क्लास 3 वर्णमाला 2</p><img src="NIDHI MAM HINDI/Thumbnail/Class 3.jpeg" alt="error"> <button> <a href="https://mega.nz/file/vfITgDhC#wQtmwiitAnlU7lFl4VpLKo0WXo4rMn0ysRM2sGBrplU" target="_blank" >Play Cass</a></button> </div>    
+        <div class="card " > <h2>Class 03</h2><p> क्लास 3 वर्णमाला 2</p><img src="CLass 3.jpg" alt="error"> <button> <a href="https://mega.nz/file/vfITgDhC#wQtmwiitAnlU7lFl4VpLKo0WXo4rMn0ysRM2sGBrplU" target="_blank" >Play Cass</a></button> </div>    
  
         
-        <div class="card " > <h2>Class 04</h2><p>क्लास 4 वर्णमाला 3</p><img src="NIDHI MAM HINDI/Thumbnail/Class 4.jpeg" alt="error"> <button> <a href="https://mega.nz/file/iXhhFRTL#3MTEJYadtk0dRzM-Ezpp0Vxu4p8SXmLQC7F3Z2UEfe4" target="_blank" >Play Cass</a></button> </div>    
+        <div class="card " > <h2>Class 04</h2><p>क्लास 4 वर्णमाला 3</p><img src="CLass 4.jpg" alt="error"> <button> <a href="https://mega.nz/file/iXhhFRTL#3MTEJYadtk0dRzM-Ezpp0Vxu4p8SXmLQC7F3Z2UEfe4" target="_blank" >Play Cass</a></button> </div>    
         
-        <div class="card " > <h2>Class 05</h2><p>क्लास 5 वर्णमाला 4</p><img src="Thumbnail/Class 5.jpeg" alt="error"> <button> <a href="https://mega.nz/file/XaBE2DIQ#2Cykpa2lKwqOoDhzofVp2fpj1g4GB0sNkRtliYHXP_0" target="_blank" >Play Cass</a></button> </div>    
+        <div class="card " > <h2>Class 05</h2><p>क्लास 5 वर्णमाला 4</p><img src="CLass 5.jpg" alt="error"> <button> <a href="https://mega.nz/file/XaBE2DIQ#2Cykpa2lKwqOoDhzofVp2fpj1g4GB0sNkRtliYHXP_0" target="_blank" >Play Cass</a></button> </div>    
  
        
         `
